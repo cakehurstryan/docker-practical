@@ -1,7 +1,7 @@
 version: 2.1
 
- build:
-    # ..
-    steps:
-        # - …
-        - run: docker-compose up -d
+- run:
+          name: Start container and verify it is working
+          command: |
+            set -x
+            docker-compose up -d 
