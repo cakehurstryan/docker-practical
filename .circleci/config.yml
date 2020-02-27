@@ -1,7 +1,0 @@
-version: 2.1
-
-- run:
-          name: Start container and verify it is working
-          command: |
-            set -x
-            docker-compose up -d 
